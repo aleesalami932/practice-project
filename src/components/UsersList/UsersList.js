@@ -1,6 +1,5 @@
 import React from "react";
 
-import UserItem from "../UserItem/UserItem";
 import Card from "../../UI/Card";
 import classes from "./UsersList.module.css";
 

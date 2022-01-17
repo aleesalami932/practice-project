@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import AddUser from "./components/UserInput/AddUser";
 import UsersList from "./components/UsersList/UsersList";
-//style sheet
 
 function App() {
   const [usersList, setUsersList] = useState([]);
@@ -17,10 +16,10 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
-    </div>
+    </>
   );
 }
 
